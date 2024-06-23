@@ -38,7 +38,9 @@ function Header(props) {
           <li>
             <a href="#contacts">Контакты</a>
           </li>
-          <li>Регистрация</li>
+          <li>
+            <a href="#registr">Регистрация</a>
+          </li>
         </ul>
         <FaShoppingCart
           onClick={() => setCartOpen((prev) => !prev)}

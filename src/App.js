@@ -7,6 +7,7 @@ import ShowFullItem from "./components/ShowFullItem";
 import AboutUs from "./components/AboutUs";
 import Contacts from "./components/Contacts";
 import Search from "./components/Search";
+import RegistrationForm from "./components/RegistrationForm";
 
 class App extends React.Component {
   constructor(props) {
@@ -113,7 +114,7 @@ class App extends React.Component {
             />
           )}
         </div>
-
+        <RegistrationForm />
         <AboutUs />
         <Contacts />
         <Footer />
